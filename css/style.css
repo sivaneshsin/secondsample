@@ -1,0 +1,193 @@
+/* 
+    Document   : style
+    Created on : 21 Aug, 2012, 1:02:03 PM
+    Author     : Balakumar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+
+    background-color:antiquewhite;
+     color:brown;
+}
+root {  
+    display: block;
+}
+
+#sessionname
+{
+
+    color:black;
+    float:right;
+    margin-right:50px;
+    border:1px solid brown;
+    background-color:blanchedalmond;
+}
+
+a{
+
+    text-decoration: none;
+    color:#0073ea   ;
+}
+
+#content
+{
+    margin-top: 25px;
+}
+
+#addtechnology
+{
+    display:none;
+    margin-left:200px;
+}
+#selecttechnology
+
+{
+    display:none;
+    margin-left:0px;
+}
+#back
+{
+
+    float:left;
+    color:blue;
+}
+
+#error
+{
+    color:red;
+    font-size: 15px;
+}
+
+#list
+{
+    width:100%;
+
+}
+
+#pager
+
+{
+    width:100%;
+}
+
+#footer
+{
+    background-color:bisque;
+    margin-top:500px;
+    height:50px;
+    text-align: center;
+    width:100%;
+    margin-left:0px;
+
+}
+
+#header
+{
+    background-color:bisque;
+    height:80px;
+    text-align: center;
+    width:100%;
+    margin-left:0px;
+    color:brown;
+    padding-bottom:0px;
+
+}
+
+#graph
+
+{
+    display:none;
+    margin-top: 50px;
+}
+
+#next
+{
+    alignment-baseline: central;
+
+}
+
+#adminlogin
+{
+    float: right;
+    margin-top: 500px;
+    color:blue;
+    font-size: 0.5em;
+}
+
+.myAltRowClass { 
+
+    background-color:moccasin; 
+    background-image: none;
+}
+
+
+#qsearch
+{
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border:solid 1px black; 
+    padding:5px 20px 5px 5px;
+    margin-bottom: 5px;
+    background:#ffffff url('../images/Search.png') no-repeat 120px !important;
+    background-size: 16px !important;
+    background-position-x:5px;
+    background-position: right 5px right;
+    width:120px;
+    text-align:left;
+    height:10px !important;
+}
+
+#trsearch
+{
+    margin-bottom: -25px;
+}
+
+#modelwindow
+{
+    display:none;
+    margin-left: 350px;
+}
+#left
+{
+    margin-left:10px;
+    /*border:solid 1px black;*/ 
+    height: 650px;
+    width: 750px;
+}
+#right
+{
+    
+    margin-left:0px;
+    float:left;
+    border:solid 1px blue; 
+    height: 400px;
+    width: 250px;
+    /* margin-right: 45px;*/
+}
+#quiz_number
+{margin-top: -70px;
+    float: right;
+    margin-right: 50px; 
+}
+#qustion_number
+{
+    float: left;
+}
+#cont_question
+{
+    margin-left: 50px;
+}
+#table_back
+{
+/*    margin-top: 500px;*/
+    background-color: #75abff;
+}
+
+#frame_table
+{
+ display: block;
+ 
+ margin-top:150px !important;
+}
